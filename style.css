@@ -733,3 +733,33 @@ footer {
   opacity: 0.9;
   transform: translateY(-1px);
 }
+/* FlyRank Graduate Badge */
+.flyrank-badge-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: rgba(56, 189, 248, 0.08);
+  border: 1px solid rgba(56, 189, 248, 0.3);
+  padding: 0.45rem 0.9rem;
+  border-radius: 8px;
+  color: var(--accent);
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.flyrank-badge-btn:hover {
+  background: rgba(56, 189, 248, 0.18);
+  border-color: var(--accent);
+  transform: translateY(-1px);
+}
+
+.badge-icon {
+  font-size: 0.9rem;
+}
+
+.badge-arrow {
+  font-size: 0.75rem;
+  opacity: 0.8;
+}
