@@ -8,6 +8,12 @@
   <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"/>
   <link rel="stylesheet" href="style.css"/>
+  <!-- Favicon SVG (Embedded Data URI so no extra file is needed) -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%232563eb'/><text x='50%' y='55%' dominant-baseline='central' text-anchor='middle' fill='%23ffffff' font-size='50' font-family='sans-serif' font-weight='bold'>FH</text></svg>" />
+
+  <!-- Free Analytics Script (Umami / Cloudflare Web Analytics) -->
+  <!-- Replace data-website-id with your free Umami tracking ID or Cloudflare token -->
+  <script defer src="https://cloud.umami.is/script.js" data-website-id="your-analytics-id-here"></script>
 </head>
 <body>
 
@@ -482,15 +488,23 @@
 
   <!-- ══ FOOTER ══ -->
   <footer>
-    <div class="footer-text">
-      Designed &amp; Built by <span>Farhan Ul Hassan</span> · 2024
-    </div>
-    <div class="social-links">
-      <a href="#" class="social-link" title="GitHub"><i class='bx bxl-github'></i></a>
-      <a href="#" class="social-link" title="LinkedIn"><i class='bx bxl-linkedin'></i></a>
-      <a href="#" class="social-link" title="Twitter"><i class='bx bxl-twitter'></i></a>
-      <a href="#" class="social-link" title="Instagram"><i class='bx bxl-instagram'></i></a>
-    </div>
+    <div class="footer-meta">
+        <p>© 2026 Farhan Ul Hassan</p>
+        <p class="sub-meta">Hosted on Netlify • SSL / HTTPS Verified</p>
+      </div>
+      
+      <div class="badge-slot">
+        <a 
+          href="https://aifluency.flyrank.ai/verify/farhan-ul-hassan" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          class="flyrank-badge-btn"
+        >
+          <span class="badge-icon">⚡</span>
+          <span>FlyRank Certified • General AI Fluency</span>
+          <span class="badge-arrow">↗</span>
+        </a>
+      </div>
   </footer>
 
   <script src="script.js"></script>
